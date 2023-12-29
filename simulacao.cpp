@@ -142,14 +142,14 @@ public:
                 cout << "\n---------------------------------\n";
                 cout << getNome() << " Acelerou!\n";
                 cout << "Velocidade atual = " <<  getVel() << "\n";
-                setVel(getVel());
+                vetVel[numVet] = getVel();
                 break;
             default:
                 reduzir();
                 cout << "\n---------------------------------\n";
                 cout << getNome() << " Reduziu!\n";
                 cout << "Velocidade atual = " <<  getVel() << "\n";
-                setVel(getVel());
+                vetVel[numVet] = getVel();
                 break;
             }
             
