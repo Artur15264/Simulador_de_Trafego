@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named simulador
+# Target rules for targets named Simulador
 
 # Build rule for target.
-simulador: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simulador
-.PHONY : simulador
+Simulador: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Simulador
+.PHONY : Simulador
 
 # fast build rule for target.
-simulador/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulador.dir/build.make CMakeFiles/simulador.dir/build
-.PHONY : simulador/fast
+Simulador/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/build
+.PHONY : Simulador/fast
 
 simulacao.o: simulacao.cpp.o
 .PHONY : simulacao.o
 
 # target to build an object file
 simulacao.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulador.dir/build.make CMakeFiles/simulador.dir/simulacao.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/simulacao.cpp.o
 .PHONY : simulacao.cpp.o
 
 simulacao.i: simulacao.cpp.i
@@ -142,7 +142,7 @@ simulacao.i: simulacao.cpp.i
 
 # target to preprocess a source file
 simulacao.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulador.dir/build.make CMakeFiles/simulador.dir/simulacao.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/simulacao.cpp.i
 .PHONY : simulacao.cpp.i
 
 simulacao.s: simulacao.cpp.s
@@ -150,7 +150,7 @@ simulacao.s: simulacao.cpp.s
 
 # target to generate assembly for a file
 simulacao.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulador.dir/build.make CMakeFiles/simulador.dir/simulacao.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/simulacao.cpp.s
 .PHONY : simulacao.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... simulador"
+	@echo "... Simulador"
 	@echo "... simulacao.o"
 	@echo "... simulacao.i"
 	@echo "... simulacao.s"

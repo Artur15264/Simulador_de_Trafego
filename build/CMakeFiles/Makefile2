@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = "/home/artur/Área de Trabalho/Simulação_de_Tráfego/build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/simulador.dir/all
+all: CMakeFiles/Simulador.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/simulador.dir/clean
+clean: CMakeFiles/Simulador.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/simulador.dir
+# Target rules for target CMakeFiles/Simulador.dir
 
 # All Build rule for target.
-CMakeFiles/simulador.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulador.dir/build.make CMakeFiles/simulador.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulador.dir/build.make CMakeFiles/simulador.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/artur/Área de Trabalho/Simulação_de_Tráfego/build/CMakeFiles" --progress-num=1,2 "Built target simulador"
-.PHONY : CMakeFiles/simulador.dir/all
+CMakeFiles/Simulador.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/artur/Área de Trabalho/Simulação_de_Tráfego/build/CMakeFiles" --progress-num=1,2 "Built target Simulador"
+.PHONY : CMakeFiles/Simulador.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/simulador.dir/rule: cmake_check_build_system
+CMakeFiles/Simulador.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artur/Área de Trabalho/Simulação_de_Tráfego/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simulador.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Simulador.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artur/Área de Trabalho/Simulação_de_Tráfego/build/CMakeFiles" 0
-.PHONY : CMakeFiles/simulador.dir/rule
+.PHONY : CMakeFiles/Simulador.dir/rule
 
 # Convenience name for target.
-simulador: CMakeFiles/simulador.dir/rule
-.PHONY : simulador
+Simulador: CMakeFiles/Simulador.dir/rule
+.PHONY : Simulador
 
 # clean rule for target.
-CMakeFiles/simulador.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulador.dir/build.make CMakeFiles/simulador.dir/clean
-.PHONY : CMakeFiles/simulador.dir/clean
+CMakeFiles/Simulador.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/clean
+.PHONY : CMakeFiles/Simulador.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
