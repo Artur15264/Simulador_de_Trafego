@@ -20,7 +20,7 @@ public:
         if (velocidade >= 0) {
             Velocidade = velocidade;
         } else {
-            cout << "Velocidade inválida!\n";
+            cout << "Velocidade inválida!\n\n";
             Velocidade = 0;
         }
     }
@@ -51,6 +51,10 @@ public:
         cout << "Digite a velocidade inicial do veículo: ";
         cin >> velocidadeVeiculo;
         setVel(velocidadeVeiculo);
+
+        if (velocidadeVeiculo < 0){
+            criarVeiculo();
+        }
     }
 
     // Construtor
@@ -69,6 +73,7 @@ public:
         } else {
             cout << "Limite de velocidade não permitido!\n";
             cout << "Digite um valor acima de 60 Km/h!\n";
+            configurarRodovia();
         }
     }
     int getLimite() { return LimiteVelocidade; }
@@ -83,8 +88,7 @@ public:
         int velocidade = 0;
 
         cout << "Defina a velocidade máxima da rodovia: ";
-        cin >> velocidade;
-
+            cin >> velocidade;
         setLimite(velocidade);
     }
 
@@ -136,6 +140,14 @@ public:
             setNome(vetNome[numVet]);
             setVel(vetVel[numVet]);
 
+            if (getVel() > getLimite()) {
+                cout << "\n---------------------------------\n";
+                cout << "O veículo [ " << getNome() << " ] foi multado por excesso de velocidade!";
+                cout << "Diminua a velocidade IMEDIATAMENTE!";
+                reduzir();
+                reduzir();
+            }
+
             switch (opc) {
             case 0:
                 acelerar();
@@ -152,7 +164,7 @@ public:
                 vetVel[numVet] = getVel();
                 break;
             }
-            
+
             numVet++;
             i++;
         }
