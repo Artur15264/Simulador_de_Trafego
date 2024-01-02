@@ -117,41 +117,113 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Simulador
+# Target rules for targets named Simulador_Final
 
 # Build rule for target.
-Simulador: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Simulador
-.PHONY : Simulador
+Simulador_Final: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Simulador_Final
+.PHONY : Simulador_Final
 
 # fast build rule for target.
-Simulador/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/build
-.PHONY : Simulador/fast
+Simulador_Final/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/build
+.PHONY : Simulador_Final/fast
 
-simulacao.o: simulacao.cpp.o
-.PHONY : simulacao.o
+Rodovia.o: Rodovia.cpp.o
+.PHONY : Rodovia.o
 
 # target to build an object file
-simulacao.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/simulacao.cpp.o
-.PHONY : simulacao.cpp.o
+Rodovia.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Rodovia.cpp.o
+.PHONY : Rodovia.cpp.o
 
-simulacao.i: simulacao.cpp.i
-.PHONY : simulacao.i
+Rodovia.i: Rodovia.cpp.i
+.PHONY : Rodovia.i
 
 # target to preprocess a source file
-simulacao.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/simulacao.cpp.i
-.PHONY : simulacao.cpp.i
+Rodovia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Rodovia.cpp.i
+.PHONY : Rodovia.cpp.i
 
-simulacao.s: simulacao.cpp.s
-.PHONY : simulacao.s
+Rodovia.s: Rodovia.cpp.s
+.PHONY : Rodovia.s
 
 # target to generate assembly for a file
-simulacao.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador.dir/build.make CMakeFiles/Simulador.dir/simulacao.cpp.s
-.PHONY : simulacao.cpp.s
+Rodovia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Rodovia.cpp.s
+.PHONY : Rodovia.cpp.s
+
+Simulador.o: Simulador.cpp.o
+.PHONY : Simulador.o
+
+# target to build an object file
+Simulador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Simulador.cpp.o
+.PHONY : Simulador.cpp.o
+
+Simulador.i: Simulador.cpp.i
+.PHONY : Simulador.i
+
+# target to preprocess a source file
+Simulador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Simulador.cpp.i
+.PHONY : Simulador.cpp.i
+
+Simulador.s: Simulador.cpp.s
+.PHONY : Simulador.s
+
+# target to generate assembly for a file
+Simulador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Simulador.cpp.s
+.PHONY : Simulador.cpp.s
+
+Veiculo.o: Veiculo.cpp.o
+.PHONY : Veiculo.o
+
+# target to build an object file
+Veiculo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Veiculo.cpp.o
+.PHONY : Veiculo.cpp.o
+
+Veiculo.i: Veiculo.cpp.i
+.PHONY : Veiculo.i
+
+# target to preprocess a source file
+Veiculo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Veiculo.cpp.i
+.PHONY : Veiculo.cpp.i
+
+Veiculo.s: Veiculo.cpp.s
+.PHONY : Veiculo.s
+
+# target to generate assembly for a file
+Veiculo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/Veiculo.cpp.s
+.PHONY : Veiculo.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simulador_Final.dir/build.make CMakeFiles/Simulador_Final.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +233,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Simulador"
-	@echo "... simulacao.o"
-	@echo "... simulacao.i"
-	@echo "... simulacao.s"
+	@echo "... Simulador_Final"
+	@echo "... Rodovia.o"
+	@echo "... Rodovia.i"
+	@echo "... Rodovia.s"
+	@echo "... Simulador.o"
+	@echo "... Simulador.i"
+	@echo "... Simulador.s"
+	@echo "... Veiculo.o"
+	@echo "... Veiculo.i"
+	@echo "... Veiculo.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
