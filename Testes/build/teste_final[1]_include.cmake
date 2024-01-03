@@ -1,0 +1,5 @@
+if(EXISTS "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final[1]_tests.cmake")
+  include("/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final[1]_tests.cmake")
+else()
+  add_test(teste_final_NOT_BUILT teste_final_NOT_BUILT)
+endif()

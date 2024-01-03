@@ -1,0 +1,329 @@
+Start testing: Jan 03 10:23 -03
+----------------------------------------------------------
+1/12 Testing: Teste_Rodovia.Teste_Limite
+1/12 Test: Teste_Rodovia.Teste_Limite
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Rodovia.Teste_Limite" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Rodovia.Teste_Limite" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Rodovia.Teste_Limite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Rodovia
+[ RUN      ] Teste_Rodovia.Teste_Limite
+[       OK ] Teste_Rodovia.Teste_Limite (0 ms)
+[----------] 1 test from Teste_Rodovia (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Rodovia.Teste_Limite" end time: Jan 03 10:23 -03
+"Teste_Rodovia.Teste_Limite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: Teste_Rodovia.Teste_Quant
+2/12 Test: Teste_Rodovia.Teste_Quant
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Rodovia.Teste_Quant" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Rodovia.Teste_Quant" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Rodovia.Teste_Quant
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Rodovia
+[ RUN      ] Teste_Rodovia.Teste_Quant
+[       OK ] Teste_Rodovia.Teste_Quant (0 ms)
+[----------] 1 test from Teste_Rodovia (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Rodovia.Teste_Quant" end time: Jan 03 10:23 -03
+"Teste_Rodovia.Teste_Quant" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: Teste_Rodovia.Teste_Adicionar
+3/12 Test: Teste_Rodovia.Teste_Adicionar
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Rodovia.Teste_Adicionar" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Rodovia.Teste_Adicionar" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Rodovia.Teste_Adicionar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Rodovia
+[ RUN      ] Teste_Rodovia.Teste_Adicionar
+[       OK ] Teste_Rodovia.Teste_Adicionar (0 ms)
+[----------] 1 test from Teste_Rodovia (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Rodovia.Teste_Adicionar" end time: Jan 03 10:23 -03
+"Teste_Rodovia.Teste_Adicionar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: Teste_Simulador.Teste_Num
+4/12 Test: Teste_Simulador.Teste_Num
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Simulador.Teste_Num" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Simulador.Teste_Num" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Simulador.Teste_Num
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Simulador
+[ RUN      ] Teste_Simulador.Teste_Num
+[       OK ] Teste_Simulador.Teste_Num (0 ms)
+[----------] 1 test from Teste_Simulador (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Simulador.Teste_Num" end time: Jan 03 10:23 -03
+"Teste_Simulador.Teste_Num" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: Teste_Veiculo.Teste_Nome
+5/12 Test: Teste_Veiculo.Teste_Nome
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_Nome" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_Nome" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_Nome
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_Nome
+[       OK ] Teste_Veiculo.Teste_Nome (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_Nome" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_Nome" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: Teste_Veiculo.Teste_Tipo
+6/12 Test: Teste_Veiculo.Teste_Tipo
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_Tipo" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_Tipo" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_Tipo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_Tipo
+[       OK ] Teste_Veiculo.Teste_Tipo (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_Tipo" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_Tipo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: Teste_Veiculo.Teste_Vel_Pos
+7/12 Test: Teste_Veiculo.Teste_Vel_Pos
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_Vel_Pos" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_Vel_Pos" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_Vel_Pos
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_Vel_Pos
+[       OK ] Teste_Veiculo.Teste_Vel_Pos (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_Vel_Pos" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_Vel_Pos" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: Teste_Veiculo.Teste_Vel_Neg
+8/12 Test: Teste_Veiculo.Teste_Vel_Neg
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_Vel_Neg" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_Vel_Neg" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_Vel_Neg
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_Vel_Neg
+Velocidade inválida!
+
+[       OK ] Teste_Veiculo.Teste_Vel_Neg (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_Vel_Neg" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_Vel_Neg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: Teste_Veiculo.Teste_Posicao
+9/12 Test: Teste_Veiculo.Teste_Posicao
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_Posicao" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_Posicao" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_Posicao
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_Posicao
+[       OK ] Teste_Veiculo.Teste_Posicao (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_Posicao" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_Posicao" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: Teste_Veiculo.Teste_Acelerar
+10/12 Test: Teste_Veiculo.Teste_Acelerar
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_Acelerar" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_Acelerar" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_Acelerar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_Acelerar
+[       OK ] Teste_Veiculo.Teste_Acelerar (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_Acelerar" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_Acelerar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: Teste_Veiculo.Teste_Reduzir
+11/12 Test: Teste_Veiculo.Teste_Reduzir
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_Reduzir" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_Reduzir" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_Reduzir
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_Reduzir
+[       OK ] Teste_Veiculo.Teste_Reduzir (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_Reduzir" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_Reduzir" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: Teste_Veiculo.Teste_CriarVeiculo
+12/12 Test: Teste_Veiculo.Teste_CriarVeiculo
+Command: "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/teste_final" "--gtest_filter=Teste_Veiculo.Teste_CriarVeiculo" "--gtest_also_run_disabled_tests"
+Directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build
+"Teste_Veiculo.Teste_CriarVeiculo" start time: Jan 03 10:23 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/artur/Área de Trabalho/Simulação_de_Tráfego/Testes/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Teste_Veiculo.Teste_CriarVeiculo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Teste_Veiculo
+[ RUN      ] Teste_Veiculo.Teste_CriarVeiculo
+Digite o nome do veículo: Digite o tipo de veículo: Digite a velocidade inicial do veículo: [       OK ] Teste_Veiculo.Teste_CriarVeiculo (0 ms)
+[----------] 1 test from Teste_Veiculo (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Teste_Veiculo.Teste_CriarVeiculo" end time: Jan 03 10:23 -03
+"Teste_Veiculo.Teste_CriarVeiculo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 03 10:23 -03
