@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Rodovia.cpp" "CMakeFiles/Simulador_Final.dir/Rodovia.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/Rodovia.cpp.o.d"
-  "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Simulador.cpp" "CMakeFiles/Simulador_Final.dir/Simulador.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/Simulador.cpp.o.d"
-  "/home/artur/Área de Trabalho/Simulação_de_Tráfego/Veiculo.cpp" "CMakeFiles/Simulador_Final.dir/Veiculo.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/Veiculo.cpp.o.d"
-  "/home/artur/Área de Trabalho/Simulação_de_Tráfego/main.cpp" "CMakeFiles/Simulador_Final.dir/main.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/main.cpp.o.d"
+  "/home/artur/Treinamento/Simulação_de_Tráfego/Rodovia.cpp" "CMakeFiles/Simulador_Final.dir/Rodovia.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/Rodovia.cpp.o.d"
+  "/home/artur/Treinamento/Simulação_de_Tráfego/Simulador.cpp" "CMakeFiles/Simulador_Final.dir/Simulador.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/Simulador.cpp.o.d"
+  "/home/artur/Treinamento/Simulação_de_Tráfego/Veiculo.cpp" "CMakeFiles/Simulador_Final.dir/Veiculo.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/Veiculo.cpp.o.d"
+  "/home/artur/Treinamento/Simulação_de_Tráfego/main.cpp" "CMakeFiles/Simulador_Final.dir/main.cpp.o" "gcc" "CMakeFiles/Simulador_Final.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
