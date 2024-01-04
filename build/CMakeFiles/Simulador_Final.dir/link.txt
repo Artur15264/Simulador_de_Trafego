@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Simulador_Final.dir/main.cpp.o CMakeFiles/Simulador_Final.dir/Veiculo.cpp.o CMakeFiles/Simulador_Final.dir/Rodovia.cpp.o CMakeFiles/Simulador_Final.dir/Simulador.cpp.o -o Simulador_Final 
+/usr/bin/c++ -g -lbfd -ldl CMakeFiles/Simulador_Final.dir/main.cpp.o CMakeFiles/Simulador_Final.dir/Veiculo.cpp.o CMakeFiles/Simulador_Final.dir/Rodovia.cpp.o CMakeFiles/Simulador_Final.dir/Simulador.cpp.o -o Simulador_Final 

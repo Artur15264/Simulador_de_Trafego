@@ -1,5 +1,5 @@
 CMakeFiles/Simulador_Final.dir/Simulador.cpp.o: \
- /home/artur/Área\ de\ Trabalho/Simulação_de_Tráfego/Simulador.cpp \
+ /home/artur/Treinamento/Simulação_de_Tráfego/Simulador.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -150,6 +150,6 @@ CMakeFiles/Simulador_Final.dir/Simulador.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/artur/Área\ de\ Trabalho/Simulação_de_Tráfego/Veiculo.h \
- /home/artur/Área\ de\ Trabalho/Simulação_de_Tráfego/Rodovia.h \
- /home/artur/Área\ de\ Trabalho/Simulação_de_Tráfego/Simulador.h
+ /home/artur/Treinamento/Simulação_de_Tráfego/Veiculo.h \
+ /home/artur/Treinamento/Simulação_de_Tráfego/Rodovia.h \
+ /home/artur/Treinamento/Simulação_de_Tráfego/Simulador.h

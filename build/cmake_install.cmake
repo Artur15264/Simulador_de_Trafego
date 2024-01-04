@@ -1,4 +1,4 @@
-# Install script for directory: /home/artur/Área de Trabalho/Simulação_de_Tráfego
+# Install script for directory: /home/artur/Treinamento/Simulação_de_Tráfego
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/artur/Área de Trabalho/Simulação_de_Tráfego/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/artur/Treinamento/Simulação_de_Tráfego/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
