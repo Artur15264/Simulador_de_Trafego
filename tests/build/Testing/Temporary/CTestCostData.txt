@@ -1,0 +1,13 @@
+Teste_Rodovia.Teste_Limite 8 0.000245801
+Teste_Rodovia.Teste_Quant 8 0.00029419
+Teste_Rodovia.Teste_Adicionar 8 0.000207224
+Teste_Simulador.Teste_Num 8 0.000232442
+Teste_Veiculo.Teste_Nome 8 0.000216285
+Teste_Veiculo.Teste_Tipo 8 0.000199117
+Teste_Veiculo.Teste_Vel_Pos 8 0.000202808
+Teste_Veiculo.Teste_Vel_Neg 8 0.000205849
+Teste_Veiculo.Teste_Posicao 8 0.000216175
+Teste_Veiculo.Teste_Acelerar 8 0.000225279
+Teste_Veiculo.Teste_Reduzir 8 0.000248947
+Teste_Veiculo.Teste_CriarVeiculo 8 0.000260623
+---
