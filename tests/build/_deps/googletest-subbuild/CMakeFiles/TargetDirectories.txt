@@ -1,0 +1,3 @@
+/home/artur/Treinamento/Simulação_de_Tráfego/tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/artur/Treinamento/Simulação_de_Tráfego/tests/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/artur/Treinamento/Simulação_de_Tráfego/tests/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
