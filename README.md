@@ -1,4 +1,4 @@
-Pojeto final realizado durante o treinamento!
+Projeto final realizado durante o treinamento!
 
 O projeto consiste em criar um simulador de tráfego, onde o usuário irá introduzir os dados dos veiculos, e os dados da rodovia, assim, o programa automaticamente começará uma simulação onde os veículos podem acelerar (aumentando a velocidade) ou frear (diminuindo a velocidade).
 
