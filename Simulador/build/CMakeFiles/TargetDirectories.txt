@@ -1,4 +1,0 @@
-/home/artur/Treinamento/Simulação_de_Tráfego/Simulador/build/CMakeFiles/Simulador_de_Trafego.dir
-/home/artur/Treinamento/Simulação_de_Tráfego/Simulador/build/CMakeFiles/test.dir
-/home/artur/Treinamento/Simulação_de_Tráfego/Simulador/build/CMakeFiles/edit_cache.dir
-/home/artur/Treinamento/Simulação_de_Tráfego/Simulador/build/CMakeFiles/rebuild_cache.dir
