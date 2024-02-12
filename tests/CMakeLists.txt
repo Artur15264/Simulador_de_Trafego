@@ -1,18 +1,10 @@
 cmake_minimum_required(VERSION 3.14)
 project(Testes)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
+set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 --coverage")
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fprofile-arcs -ftest-coverage")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMakeModules/")
-
-add_custom_target(coverage
-    COMMAND ${CMAKE_MAKE_PROGRAM} test
-    COMMAND lcov --directory . --capture --output-file coverage.info
-    COMMAND lcov --remove coverage.info '/usr/*' --output-file coverage.info
-    COMMAND lcov --list coverage.info
-    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
-)
-
 message( STATUS "*** Compilando testes unitários ***")
 
 file(GLOB TEST_SOURCES ../src/*.cpp)
@@ -21,15 +13,15 @@ file(GLOB TEST_SOURCES ../src/*.cpp)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include(FetchContent)
-FetchContent_Declare(
-  googletest
-  URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
-)
+# Substitua o diretório abaixo pelo caminho correto onde você extraiu o googletest.
+set(GTEST_PATH "googletest")
+
+# Adicione os diretórios de inclusão e bibliotecas do googletest ao seu projeto.
+include_directories(${GTEST_PATH}/googletest/include)
+add_subdirectory(${GTEST_PATH} gtest)
 
 # For Windows: Prevent overriding the parent project's compiler/linker settings
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-FetchContent_MakeAvailable(googletest)
 
 include_directories(
   ../include
@@ -55,3 +47,10 @@ target_link_libraries(
 include(GoogleTest)
 gtest_discover_tests(teste_final)
 
+add_custom_target(coverage
+    COMMAND ${CMAKE_MAKE_PROGRAM} test
+    COMMAND lcov --directory . --capture --output-file coverage.info
+    COMMAND lcov --remove coverage.info '/usr/*' --output-file coverage.info
+    COMMAND lcov --list coverage.info
+    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+)
